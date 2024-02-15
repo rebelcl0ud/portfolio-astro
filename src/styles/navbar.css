@@ -1,0 +1,39 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 72px;
+  font-family: sans-serif;
+}
+.brand-container {
+  display: flex;
+  align-items: center;
+}
+.brand-container a {
+  display: contents;
+}
+#brand {
+  width: 8%;
+  height: 8%;
+  filter: invert(1);
+  margin: 0 0 0 24px;
+}
+.socials {
+  display: flex;
+  margin: 0 16px 0 16px;
+}
+.socials > a > img {
+  width: 24px;
+  margin-right: 8px;
+}
+.routes {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  margin: 0 24px 0 0;
+}
+.routes > li > a {
+  text-decoration: none;
+  color: #00aeef;
+}

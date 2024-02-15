@@ -1,0 +1,16 @@
+:root {
+  --bg-color-fallback: #f7f7f7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  background: var(--bg-color-fallback);
+  background: linear-gradient(to top, #00aeef, #ec6ead);
+}
