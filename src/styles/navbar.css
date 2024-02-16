@@ -14,10 +14,10 @@
   display: contents;
 }
 #brand {
-  width: 8%;
-  height: 8%;
+  width: 72px;
+  height: 40px;
   filter: invert(1);
-  margin: 0 0 0 24px;
+  margin: 0 0 0 16px;
 }
 .socials {
   display: flex;
@@ -31,9 +31,23 @@
   display: flex;
   gap: 16px;
   list-style-type: none;
-  margin: 0 24px 0 0;
+  margin: 0 16px 0 0;
 }
 .routes > li > a {
   text-decoration: none;
   color: #00aeef;
+}
+
+@media (width <= 850px) {
+  .nav-container {
+    padding: 0 8px;
+  }
+  #brand {
+    width: 56px;
+    height: 32px;
+    margin: 0;
+  }
+  .routes {
+    margin: 0;
+  }
 }
