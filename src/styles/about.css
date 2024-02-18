@@ -6,16 +6,23 @@
 }
 .about > img {
   width: 25%;
-  border: 4px solid yellow;
+  border: 4px solid #fff000;
   border-radius: 8%;
   padding: 8px;
+}
+.summary > svg {
+  transform: rotate(180deg);
+}
+.summary {
+  width: 50%;
 }
 
 @media (width <= 850px) {
   .about {
     flex-direction: column;
     justify-content: center;
-    gap: 80px;
+    gap: 48px;
+    margin: 48px 0;
   }
 
   .about > img {
