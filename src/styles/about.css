@@ -1,0 +1,24 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+}
+.about > img {
+  width: 25%;
+  border: 4px solid yellow;
+  border-radius: 8%;
+  padding: 8px;
+}
+
+@media (width <= 850px) {
+  .about {
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+  }
+
+  .about > img {
+    width: 50%;
+  }
+}
