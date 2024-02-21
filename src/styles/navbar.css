@@ -31,11 +31,11 @@
   list-style-type: none;
   margin: 0 24px 0 0;
 }
-.routes > li > a {
+.routes > a {
   text-decoration: none;
   color: #00aeef;
 }
-.routes > li > a:hover {
+.routes > a:hover {
   color: #fff000;
 }
 

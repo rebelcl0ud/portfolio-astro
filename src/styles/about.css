@@ -22,7 +22,7 @@
   transform: rotate(-7deg);
   filter: invert(1);
 }
-.summary > p {
+.summary > h2 {
   text-align: center;
   color: #fff000;
 }
