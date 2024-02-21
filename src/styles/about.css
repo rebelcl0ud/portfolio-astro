@@ -22,14 +22,14 @@
   transform: rotate(-7deg);
   filter: invert(1);
 }
-.summary > h2 {
+.summary-container > h2 {
   text-align: center;
   color: #fff000;
 }
-.summary > svg {
+summary > svg {
   transform: rotate(180deg);
 }
-.summary {
+.summary-container {
   width: 50%;
   padding: 24px;
 }
@@ -44,7 +44,7 @@
   .about > img {
     width: 50%;
   }
-  .summary {
+  .summary-container {
     width: 75%;
     padding: 0;
   }
