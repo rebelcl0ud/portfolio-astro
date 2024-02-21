@@ -5,7 +5,7 @@
   background-color: black;
   height: 72px;
   color: #ec6ead;
-  padding: 8px 16px 0 16px;
+  padding: 8px 24px 0 24px;
 }
 .footer > small {
   color: #848484;
@@ -31,10 +31,10 @@
     padding: 0;
   }
   .footer > small {
-    padding: 0 8px;
+    padding: 0 24px;
   }
   #memo {
-    padding: 0 8px;
+    padding: 0 24px;
   }
   #soda > img {
     width: 16px;
