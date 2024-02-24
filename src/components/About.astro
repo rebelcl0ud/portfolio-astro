@@ -1,21 +1,31 @@
 ---
-import "../styles/about.css";
+
 ---
 
-<section class="about">
-  <div class="jo">
+<section
+  class="flex flex-col items-center justify-center gap-8 my-12 lg:justify-around"
+>
+  <div class="flex items-center justify-center relative">
     <img
+      class="p-2 w-1/2"
       src="/images/rsz_jo.png"
       alt="illustration of girl with bun wearing glasses and nose ring"
     />
-    <img id="signature" src="/images/jo.png" alt="illustration signed, jo" />
+    <img
+      class="absolute right-1/4 bottom-0 w-1/5 -rotate-[7deg] invert"
+      src="/images/jo.png"
+      alt="illustration signed, jo"
+    />
   </div>
-  <div class="summary-container">
-    <h2>Developer | Frontend | JavaScript | React</h2>
-    <br /><br />
-    <summary>
+  <div class="w-2/3 p-0 lg:w-1/2 lg:p-6">
+    <h2 class="text-center text-2xl text-[#fff000] mb-2">
+      Developer | Frontend | JavaScript | React
+    </h2>
+    <br />
+    <summary class="flex list-none">
       <!--?xml version="1.0" ?-->
       <svg
+        class="rotate-180 min-w-4 mr-2"
         enable-background="new 0 0 48 48"
         height="24px"
         id="Layer_3"

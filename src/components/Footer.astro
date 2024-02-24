@@ -1,18 +1,25 @@
 ---
-import "../styles/footer.css";
+
 ---
 
-<footer class="footer">
-  <small>©2017-2024. All Rights Reserved</small>
-  <div id="memo">
-    <small aria-label="made with soda and my little girl pup">
+<footer
+  class="lg:flex pl-6 pt-2 lg:flex-wrap lg:content-center items-baseline lg:justify-between bg-black h-[72px] lg:pt-2 lg:px-6"
+>
+  <small class="text-[#848484] text-xs">©2017-2024. All Rights Reserved</small>
+  <div class="py-2 lg:p-2">
+    <small
+      class="flex text-[#ec6ead] text-xs"
+      aria-label="made with soda and my little girl pup"
+    >
       made with <span aria-hidden="true" id="soda"
         ><img
+          class="max-w-4 invert -rotate-12 mr-1"
           src="/images/soda.png"
           alt="cup of soda with ice and a straw"
         /></span
       > + <span aria-hidden="true" id="paws"
         ><svg
+          class="text-[#848484] ml-1 max-w-4"
           width="24"
           height="24"
           viewBox="0 0 15 15"
