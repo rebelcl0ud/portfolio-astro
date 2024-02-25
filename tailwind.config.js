@@ -1,8 +1,24 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
-  theme: {
-    extend: {},
+import defaultTheme from "tailwindcss/defaultTheme";
+export const content = ["./src/**/*.{astro,html}"];
+export const theme = {
+  colors: {
+    black: "#000000",
+    pink: "#ec6ead",
+    blue: "#00aeef",
+    yellow: "#fff000",
+    gray: "#d8d9d8",
+    darkergray: "#848484",
+    white: "#ffffff",
   },
-  plugins: [],
+  screens: {
+    xs: "280px", // galaxy fold
+    ...defaultTheme.screens,
+  },
+  extend: {
+    width: {
+      15: "15%",
+    },
+  },
 };
+export const plugins = [];
