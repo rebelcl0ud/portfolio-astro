@@ -8,8 +8,16 @@ const ME = Astro.url.pathname === "/me";
 
 <BaseLayout>
   <main class="flex flex-1 items-center content-center">
-    <BioLayout>
-      {HOME ? <ShortBio /> : ME && <slot />}
-    </BioLayout>
+    {
+      HOME ? (
+        <ShortBio />
+      ) : (
+        ME && (
+          <BioLayout>
+            <slot />
+          </BioLayout>
+        )
+      )
+    }
   </main>
 </BaseLayout>
