@@ -1,15 +1,15 @@
 ---
-import Layout from "./Layout.astro";
+import BaseLayout from "./BaseLayout.astro";
 import BioLayout from "./BioLayout.astro";
 import ShortBio from "../components/ShortBio.astro";
 const HOME = Astro.url.pathname === "/";
 const ME = Astro.url.pathname === "/me";
 ---
 
-<Layout>
+<BaseLayout>
   <main class="flex flex-1 items-center content-center">
     <BioLayout>
       {HOME ? <ShortBio /> : ME && <slot />}
     </BioLayout>
   </main>
-</Layout>
+</BaseLayout>
