@@ -1,0 +1,19 @@
+---
+import "../styles/output.css";
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <title>portfolio</title>
+  </head>
+  <body class="flex flex-col bg-gradient-to-t from-blue to-pink min-h-screen">
+    <Navbar />
+    <slot />
+    <Footer />
+  </body>
+</html>
